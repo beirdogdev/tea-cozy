@@ -1,0 +1,121 @@
+* {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    display: block;
+    align-content: center;
+    align-items: center;
+}
+
+html {
+    background-color: black;
+}
+.navbar {
+    max-height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+
+.navlinks {
+    display: flex;
+    padding-right: 10px;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+header>img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+#mission{
+    margin-top: 100px;
+    background-image: url(./Pictures/missionbackground.jpg);
+    height: 700px;
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    margin: 100px auto 10px auto;
+}
+
+.mission-desc {
+    margin: auto;
+    vertical-align: center;
+    width: 100%;
+    background-color: black;
+}
+
+#featuredtea {
+    width: 1000px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.option {
+    margin: 5px;;
+}
+
+.totmimg {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.location {
+    background-image: url(./Pictures/locationsbackground.jpg);
+    height: 500px;
+    margin: 40px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.location > h2 {
+    padding: 20px 0px;
+    font-size: larger;
+}
+
+.details {
+    display: inline-flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.contact {
+    line-height: 10px;
+}
+
+.contact > h2 {
+    font-size: larger;
+}
+
+.copyright {
+    text-align: left;
+    margin-top: 20px;
+}
